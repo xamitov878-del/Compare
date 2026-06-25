@@ -51,11 +51,11 @@ export const Cars = () => {
                     </ul>
                 )
                 }
-                
+
                 {
                     compare.map((item) => {
                         return (
-                            <ul key={item.id}>
+                            <ul className='list3' key={item.id}>
                                 <li className='item3'>
                                     <p>{item.model}</p>
                                     <button onClick={() => handleCompare(item)} className='remove__bnt'>{compare.some((el) => el.id === item.id)}</button>
