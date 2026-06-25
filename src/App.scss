@@ -194,6 +194,11 @@
     margin-bottom: 12px;
 }
 
+@media (max-width: 1500px) {
+    .inner {
+        gap: 10px;
+    }
+}
 
 @media (min-width: 590px) and (max-width: 1000px) {
     .header__wrapper {
@@ -208,6 +213,8 @@
     .header__list {
         gap: 30px;
     }
+
+
 
 }
 
